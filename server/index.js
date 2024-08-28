@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 
 const UserModel = require('./models/User')
 const AdminModel = require('./models/Admin')
-const StudentDataModel = require('./models/StudentData')
+const StudentDataModel = require('./models/StudentData');
 
 const app = express()
 app.use(express.json())
